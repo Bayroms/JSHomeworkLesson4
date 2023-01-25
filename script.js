@@ -10,7 +10,7 @@ for (let i = 0; i < 11; i++) {
     if (i == 0) { console.log(i + ' this is zero') } else(i % 2 == 0) ? console.log(i + ' this is even number') : console.log(i + ' this is not even number')
 }
 
-2
+// 2
 // Дан массив [1, 2, 3, 4, 5, 6, 7]
 // Сделайте из этого массива следующий [1, 2, 3, 6, 7]
 const array = [1, 2, 3, 4, 5, 6, 7];
@@ -23,7 +23,7 @@ console.log(array);
 // 1. Рассчитать сумму элементов этого массива
 // 2. Найти минимальное число
 // 3. Найти есть ли в этом массиве число 3
-// let GetValue = a => a = Number(Math.floor(Math.random() * 9));
+let GetValue = a => a = Number(Math.floor(Math.random() * 9));
 let Sum = (array) => {
     let sum = 0;
     for (let i = 0; i < array.length; i++) {
